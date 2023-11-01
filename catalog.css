@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.big5global.com/wp-content/uploads/2023/05/dcw12.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: rgb(237, 237, 241); 
+}
+
+header {
+    background-image: url('https://www.big5global.com/wp-content/uploads/2023/05/dcw12.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #3d79fa;
+    text-align: left;
+    padding: 20px;
+}
+nav {
+    background-color: #3f66e4;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+    align-items: right;
+}
+
+nav li {
+    display: inline;
+    
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #6354f1;
+}
+.logo img{
+    height: 60px;
+    width: 100px;
+
+}
+.logo{
+    display: flex;
+}
+.grp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #555;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3f66e4;
+    text-align: right;
+}
+
+.left {
+    order: 1;
+    color:#faf9fc
+}
+
+.nav1 {
+    order: 2;
+}
+
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category {
+    flex-basis: 100%; /* Each category takes full width */
+    margin-bottom: 20px; /* Spacing between categories */
+}
+.category h2{
+    text-align: center;
+    color: #adabf1;
+}
+.sub-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-item {
+    flex: 0 0 calc(50% - 20px); /* Two columns with some spacing */
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.service-item::before {
+    content: '';
+    position: absolute;
+    top: 10px; /* Adjust the top padding */
+    left: 10px; /* Adjust the left padding */
+    right: 10px; /* Adjust the right padding */
+    bottom: 10px; /* Adjust the bottom padding */
+    background-color: rgba(118, 150, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    z-index: -1;
+    width: 9cm; /* Set the width to 7cm */
+    pointer-events: none;
+     /* Allow clicking through the box */
+}
+.service-item::before {
+    /* ... (previous properties) ... */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 9cm;
+    height: 4cm;
+}
+
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service-item h3 {
+    margin: 10px 0;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.buy-button,
+.cart-button {
+    flex: 1;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buy-button {
+    margin-right: 5px;
+}
+
+.buy-button:hover,
+.cart-button:hover {
+    background-color: #555;
+}
+.view-cart-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #3f66e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-cart-button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BuildEase</title>
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+    <header>
+        <div class="grp">
+            <div class="logo">
+                <img src="images\logo.jpg" alt="BuildEase Logo">
+                <h1>Build Easy</h1>
+            </div>
+            <div class="buttons" >
+                <a href="login.html" class="button">Login</a>
+                <a href="register.html" class="button">Register</a>
+            </div>
+        </div>
+        <div class="list">
+            <div class="left">
+                <h>About</h>
+            </div>
+            <div class="nav1">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="catalog.html">Catalog</a></li>
+                        <li><a href="rent.html">Rental</a></li>
+                        <li><a href="supplier.html">Suppliers</a></li>
+                        <li><a href="contact.html#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    
+    </header>
+    <main>
+        <section class="about-us">
+            <div class="about-us-content">
+                <h2>The BuildEase Journey: Pioneering Construction Material Sourcing</h2>
+                <p>
+                    In the heart of innovation, BuildEase emerged as a beacon of change, reshaping 
+                    the landscape of how individuals and businesses acquire construction materials. 
+                    Our story is one of vision, determination, and a relentless pursuit of 
+                    convenience and quality.
+                </p>
+                <!-- Add the rest of the content here (Extensive Catalog, User-Friendly Interface, etc.) -->
+            </div>
+        </section>
+        <!--<section id="about" class="flex-container">
+            <div class="about-items">
+                <div class="about-item">
+                    <h3>Inception: </h3>
+                    <p class="description">It all began with a shared belief among our founders - that the construction industry deserved a modern solution, one that could seamlessly connect customers with the materials they needed, without the hassle of traditional procurement methods. Thus, BuildEase was born, with a clear mission: revolutionize construction material sourcing.</p>
+                </div>
+        
+                <div class="about-item">
+                    <h3>Item 2</h3>
+                    <p class="description">Description for Item 2</p>
+                </div>
+        
+                <div class="about-item">
+                    <h3>Item 3</h3>
+                    <p class="description">Description for Item 3</p>
+                </div>
+            </div>
+        
+            <div class="about-description">
+                <p>Select an item to view its description.</p>
+            </div>
+        </section>
+        
+    -->
+        
+        
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const aboutItems = document.querySelectorAll('.about-item');
+
+    aboutItems.forEach(item => {
+        item.addEventListener('click', function() {
+            aboutItems.forEach(item => item.classList.remove('active'));
+            this.classList.add('active');
+        });
+
+        item.addEventListener('mouseout', function() {
+            this.classList.remove('active');
+        });
+    });
+});
+
+</script>
+        
+        <section class="ourteam">            
+            <h2 style="text-align: center;">About me</h2>
+        </section>
+        <section class="team">
+            <div class="team-member">
+                <img src="images\photo.png" alt="Narasimha Vadde">
+                <h3>Narasimha Vadde</h3>
+                <p>Founder & CEO</p>
+                <div class="details">
+                    <p>Email: vaddenarasimha46@gmail.com</p>
+                    <p>Phone: +91 6281189994</p>
+                </div>
+            </div>
+            
+            
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 BuildEase</p>
+    </footer>
+
+</body>
+</html>

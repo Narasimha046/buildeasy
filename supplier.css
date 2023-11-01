@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.big5global.com/wp-content/uploads/2023/05/dcw12.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: rgb(237, 237, 241); 
+}
+
+header {
+    background-image: url('https://www.big5global.com/wp-content/uploads/2023/05/dcw12.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #3d79fa;
+    text-align: left;
+    padding: 20px;
+}
+nav {
+    background-color: #3f66e4;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+    align-items: right;
+}
+
+nav li {
+    display: inline;
+    
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #fff;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3f66e4;
+    text-align: right;
+}
+
+.left {
+    order: 1;
+    color:#faf9fc
+}
+
+.nav1 {
+    order: 2;
+}
+
+.logo img{
+    height: 60px;
+    width: 100px;
+
+}
+.logo{
+    display: flex;
+}
+.grp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #555;
+}
+/* Add this CSS to your supplier.css file */
+.suppliers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.supplier {
+    flex: 0 0 calc(33.33% - 10px);
+    box-sizing: border-box;
+    margin: 10px 0;
+    text-align: center;
+    border: 1px solid #6872f8;
+    padding: 10px;
+    background-color: #6764f5;
+}
+
+.supplier img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.supplier h3 {
+    margin: 10px 0;
+}
+
+.supplier p {
+    color: #555;
+}
+
+.supplier a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
